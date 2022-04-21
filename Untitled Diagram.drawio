@@ -1,1 +1,77 @@
-<mxfile host="app.diagrams.net" modified="2022-04-19T12:10:29.548Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.2 Safari/605.1.15" version="17.4.4" etag="BqbGHxNWA4nq_LXR5B3h" type="github"><diagram id="zu0QLXmThpZblWXzWL5W">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-21T01:46:25.607Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.2 Safari/605.1.15" etag="GQGF8CmN7KiAnFt3lqBN" version="17.4.4" type="github">
+  <diagram id="zu0QLXmThpZblWXzWL5W" name="Page-1">
+    <mxGraphModel dx="946" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="H3GpcRg4Z_POiXeuhQWu-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="H3GpcRg4Z_POiXeuhQWu-1" target="H3GpcRg4Z_POiXeuhQWu-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H3GpcRg4Z_POiXeuhQWu-1" value="while lotto.count == 5&lt;br&gt;1 ~ 45 까지의 중 한개의 난수 생성" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="90" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="H3GpcRg4Z_POiXeuhQWu-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H3GpcRg4Z_POiXeuhQWu-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="423.5" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="414" y="270" />
+              <mxPoint x="410" y="270" />
+              <mxPoint x="410" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H3GpcRg4Z_POiXeuhQWu-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="H3GpcRg4Z_POiXeuhQWu-3" target="H3GpcRg4Z_POiXeuhQWu-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="494" y="200" />
+              <mxPoint x="494" y="125" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H3GpcRg4Z_POiXeuhQWu-3" value="if 생성된 난수가 Lotte (지역변수)에 같은값이 존재 하는가?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H3GpcRg4Z_POiXeuhQWu-7" value="var &amp;nbsp;lotto : [Int] = []" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H3GpcRg4Z_POiXeuhQWu-8" value="NO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="354" y="260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H3GpcRg4Z_POiXeuhQWu-10" value="YES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H3GpcRg4Z_POiXeuhQWu-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H3GpcRg4Z_POiXeuhQWu-13" target="H3GpcRg4Z_POiXeuhQWu-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H3GpcRg4Z_POiXeuhQWu-13" value="lotto에 &amp;nbsp;값 저장" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H3GpcRg4Z_POiXeuhQWu-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.992;entryY=0.371;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="H3GpcRg4Z_POiXeuhQWu-16" target="H3GpcRg4Z_POiXeuhQWu-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="420" />
+              <mxPoint x="590" y="116" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H3GpcRg4Z_POiXeuhQWu-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H3GpcRg4Z_POiXeuhQWu-16" target="H3GpcRg4Z_POiXeuhQWu-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H3GpcRg4Z_POiXeuhQWu-16" value="&lt;span&gt;lotto.count가 5인가?&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="354" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H3GpcRg4Z_POiXeuhQWu-20" value="끝" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="354" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H3GpcRg4Z_POiXeuhQWu-22" value="NO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="420" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H3GpcRg4Z_POiXeuhQWu-23" value="YES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="460" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
